@@ -6,7 +6,7 @@ import static Tests.SeleniumTest.driver;
 
 public class HomePage {
 
-    public static String about_button_xpath="//*[@class='menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-4705']";
+    public static String about_button_xpath="//*[@id='menu-item-4705']";
 
 
     public static void click_about(){

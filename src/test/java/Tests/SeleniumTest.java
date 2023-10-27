@@ -24,6 +24,6 @@ public class SeleniumTest {
         ProductsPage.verify_step1_name();
         ProductsPage.verify_step2_name();
         ProductsPage.verify_step3_name();
-
+        driver.close();
     }
 }
